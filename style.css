@@ -1,0 +1,60 @@
+body{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-family: Inter, Roboto, sans-serif;
+  background-image: url('img/bg-image.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-style: normal;
+  background-color: #36454F;
+  color: #FFFFFF;
+}
+  @media screen and (max-width: 500px){
+  body{
+  padding-top: 220px;
+  padding-bottom: 220px;
+    }
+  }
+h1, h2, h3, h4, h5, h6{
+  font-family: Smooch, cursive;
+}
+a{
+  text-decoration: none;
+}
+  
+/* custom css */
+/* main */
+#main h1{
+  font-size: 92px;
+} 
+  @media screen and (max-width: 500px){
+  #main h1{
+      font-size: 58px;
+    }
+  }
+#main h2{
+  font-size: 44px;
+} 
+  @media screen and (max-width: 500px){
+  #main h2{
+      font-size: 26px;
+    }
+  }
+#main p{
+  font-size: x-large;
+  font-weight: 200;
+}
+  @media screen and (max-width: 500px){
+    #main p{
+      font-size: large;
+    }
+  }
+  
+/* footer */
+footer{
+  font-size: small;
+  font-weight: 200;
+  opacity: 0.7;
+}
